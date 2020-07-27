@@ -7,7 +7,7 @@ TransparentScroller introduces a track-less `NSScrollView` and `NSScroller`.
 It mimics the default appearance when a trackpad or magic mouse is used.
 
 # 1. Setup
-## 1.1. Via [carthage](https://github.com/Carthage/Carthage)
+## 1.1. via [carthage](https://github.com/Carthage/Carthage)
 Add this to your Cartfile:
 ```bash
 github "stein2nd/TransparentScroller"
