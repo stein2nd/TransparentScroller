@@ -13,7 +13,10 @@ github "stein2nd/TransparentScroller"
 ```
 それから`carthage update`を実行すれば、準備完了です。
 
-## 1.2. 手動
+## 1.2. [Swift Package Manager](https://swift.org/package-manager/)経由
+Swift Package Managerは、Swiftライブラリ/フレームワークの配布を自動化する為のツールで、Swiftコンパイラーに統合されています。Swiftパッケージを設定したら、`Package.swift`の「dependencies」値に追加するだけで簡単にTransparentScrollerを`dependency`として追加できます。
+
+## 1.3. 手動
 このリポジトリをクローンして、`TransparentScroller`のファイルをプロジェクトに追加します。
 
 # 2. 使用法
